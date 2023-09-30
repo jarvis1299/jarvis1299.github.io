@@ -1,0 +1,83 @@
+.general-row{display:block;
+			position:relative;
+			margin:0;
+			padding: 30px 0px 0px 0px;
+		 }
+
+
+ .navbar{
+        background-color: white;
+        height:67px;
+    }
+
+    .navbar-brand>img {
+    display: block;
+   height: 90px;
+    width: 150px;}
+
+
+    .navbar-inverse .navbar-nav>li>a {
+        color: black;
+        padding-top: 32px;
+        font-size: 18px;
+        padding-right: 23px;
+    font-family: 'El Messiri', sans-serif;}
+
+
+    .navbar-inverse .navbar-brand {
+    color: transparent;
+    margin-left: 35%;}
+
+    .navbar-inverse {
+        border: none;
+    }
+
+    
+.news h1{font-size: 21px;
+    border-top: 2px solid black;
+    padding-top: 10%;
+    border-bottom: 2px solid black;
+    padding-bottom: 10%;}
+.news-p{padding-top: 2%;
+		font-size: 20px}
+.news span{font-size: 11px}
+.news h4{padding-top: 5%;
+		font-size: 40px;}
+
+ input[type=text] {
+  padding: 5px;
+  margin-top: 8px;
+  font-size: 16px;
+  border: none;
+}
+
+ .search-container button {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 10px;
+  background: #ddd;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+ .search-container button:hover {
+  background: #ccc;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav .search-container {
+    float: none;
+  }
+  .topnav a, .topnav input[type=text], .topnav .search-container button {
+    float: none;}
+}
+.col-md-6{padding-right: 4px;
+    padding-left: 4px;}
+
+
+.new-p p{font-size: 16px;}
+.new-p h4{font-size: 26px;
+    margin-top: 13%;
+    margin-bottom: 11%;}    

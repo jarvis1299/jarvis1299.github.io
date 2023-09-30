@@ -1,0 +1,29 @@
+.general-row{	display:block;
+					position:relative;
+					margin:0;
+					padding: 70px 0px 0px 0px;
+	 }
+
+.conser1 h5{	font-size: 40px;
+			font-family:'Baloo Da', cursive;
+			padding-bottom: 4%}
+.conser1 p{font-family: 'El Messiri', sans-serif;
+			font-size: 16px;
+	    	padding-bottom: 3%;}
+.conser1 li{font-family: 'El Messiri', sans-serif;
+			font-size: 16px;
+	    	padding-bottom: 3%;}
+.container {
+	    padding-right: 300px;
+	    padding-left: 300px;}
+.para{font-family: 'El Messiri', sans-serif;
+			font-size: 24px;}
+
+hr {
+	 margin-top: 20px;
+	 margin-bottom: 20px;
+	 border: 0;
+	 border-top: 1px solid black;}
+.btn-success {
+    color: #fff;
+    background-color: black;}

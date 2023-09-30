@@ -1,0 +1,187 @@
+.general-row{	display:block;
+				position:relative;
+				margin:0;
+				padding: 70px 0px 0px 0px;
+ }
+ .general-row1{	display:block;
+				position:relative;
+				margin:0;
+				padding: 70px 0px 0px 0px;
+				padding-bottom: 6%;
+ }
+ .parallax {
+  /* The image used */
+  background-image: url('img_parallax.jpg');
+
+  /* Full height */
+  height: 100%; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media only screen and (max-device-width: 1366px) {
+  .parallax {
+    background-attachment: scroll;
+  }
+}
+.ab1 img{width:100%;height:500px;position:relative;}
+
+.ab3{    width: 1000px;
+    background-color: white;
+    display: inline-block;
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 111;
+    min-height: 300px;
+    padding: 20px 50px;
+}
+.ab3 h1{font-size: 46px;
+		color:lightblue;}
+.ab3 h3{
+		font-size: 30px;
+	}
+.loc h1{font-size: 54px;
+		font-family:'Baloo Da', cursive;}
+.loc p{font-family: 'El Messiri', sans-serif;
+		font-size: 22px}
+.loc .col-md-7{padding-left: 0px}
+.loc-img{width: 220px;
+    height: 228px;}
+.loc-img1{margin-top: 5%;
+		width: 443px;
+   		height: 420px;
+   	}
+.ser h1{font-size: 54px;
+		font-family:'Baloo Da', cursive;}
+.ser p{font-family: 'El Messiri', sans-serif;
+		font-size: 22px}
+
+video {
+  max-width: 100%;
+  height: auto;
+}
+
+.leader h1{font-size: 54px;
+		font-family:'Baloo Da', cursive;}
+.leader p{font-family: 'El Messiri', sans-serif;
+		font-size: 22px}
+
+
+.loc h2 {
+    font: 33px sans-serif;
+    margin-top: 30px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.loc h2.background {
+    position: relative;
+    z-index: 1;
+    
+    &:before {
+        border-top: 2px solid #dfdfdf;
+        content:"";
+        margin: 0 auto; 
+        position: absolute; 
+        top: 50%; left: 0; right: 0; bottom: 0;
+        width: 95%;
+        z-index: -1;
+    }
+
+.loc span { 
+      
+        background: #fff; 
+        padding: 0 15px; 
+    }
+}
+
+#wrapper{
+            padding:0px;
+            width:960px;
+            height:auto;
+            margin:auto;
+            overflow:hidden;
+}
+
+.image-container{
+            float:left;
+            width:300px;
+            height:320px;
+            position:relative;
+            margin:10px;
+            cursor:pointer;
+}
+
+.image-container img{
+            width:300px;
+            height:320px; 
+            position:absolute;
+}
+
+.image-caption {
+            width:100%;
+            height:100%;
+            background:rgba(0, 0, 0, 0.7);
+            position:absolute; 
+            opacity:0; 
+            transition:all 300ms ease-in-out;
+           -webkit-transition:all 300ms ease-in-out;
+           -moz-transition:all 300ms ease-in-out;
+           -o-transition:all 300ms ease-in-out;
+           -ms-transition:all 300ms ease-in-out;
+}
+
+.image-caption h1{
+            padding:45px 0px 5px 0px;
+            text-align:center;
+            margin-left:-15px;
+            text-transform:uppercase;
+            font-family: 'Indie Flower', cursive;
+            font-size:25px;
+            color:#00bfb6;
+}
+
+.image-caption p{
+            text-align:center; 
+            font-family: 'Overpass Mono', monospace;
+            color:#fff;
+}
+
+.image-container:hover .image-caption{
+            opacity:1;
+}
+
+.hist h1{font-size: 40px;
+		font-family:'Baloo Da', cursive;}
+
+.hist-img1 {    width: 540px;
+    height: 500px;}
+
+.hist-img2{
+			width: 260px;
+    		height: 250px;
+    		margin-top: 4%;
+     		margin-right: 2%;
+}
+.hist-img3{width: 260px;
+    		height: 250px;
+    		margin-top: 4%;
+      		}
+
+
+.hist-img4{
+			width: 540px;
+    		height: 270px;
+			margin-top: 4%;
+     		
+}
+.hist-p{font-family: 'El Messiri', sans-serif;
+		font-size: 20px}
+
+.hist-h2{font-size: 30px}
